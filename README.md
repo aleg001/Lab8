@@ -1,6 +1,7 @@
 
 
-### Lab 8
+
+## Lab 8
 
 #### Desarrollado por:
 - Alejandro Gómez
@@ -31,8 +32,8 @@ Este gráfico es comunmente utilizado para la visualización de diferentes carte
 ##### Features seleccionados: 
 
 Se seleccionaron los siguientes features:
- __ CustAccountBalance
- __ TransactionAmount (INR)
+ - CustAccountBalance
+ - TransactionAmount (INR)
 
  Se eligieron las mismas después de analizar el contexto de la información y observar los datos; calculando la correlación entre variables y su significacia.
 
@@ -48,10 +49,8 @@ Para este laboratorio se seleccionó la siguiente métrica de desempeño: log li
 
 Esta métrica evalúa la calidad del modelo y nos dice qué tan bien se ajusta el mismo a los datos.
 
-##### Comparación con resultados del lab 7:
+#### Comparación con resultados del lab 7:
 
-- ¿Cúal es mejor? ¿Por qué?
+##### ¿Cúal es mejor? ¿Por qué? ¿Cuándo usar Mixture Models y K-Means?
 
-##### ¿Cuándo usar Mixture Models y K-Means?
-
-##### ¿Cuál implementación fue mejor? ¿Por qué? (Responda como parte del readme de su repositorio)
+Ambos son fueron muy buenas implementaciones pero finalmente lo que dictará cuál es mejor es la data. Ya que en ciertos casos es mejor utilizar Mixture Models, como cuando tenemos distribuciones de datos complejos y diferentes o cuando queremos añadir detalle de cómo agrupar la información en los clusters. Sin embargo, si contamos con distribuciones claras, se recomienda utilizar K-Means pues este ofrece una solución computacionalmente más eficiente.
